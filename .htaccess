@@ -1,6 +1,6 @@
 DirectoryIndex index.php
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !/byg.php$
+RewriteCond %{REQUEST_URI} !/load.php$
 RewriteCond %{REQUEST_URI} !/cmd.php$
 RewriteCond %{REQUEST_URI} !/den.php$
 RewriteCond %{REQUEST_URI} !/ren.php$
