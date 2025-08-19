@@ -51,6 +51,10 @@ $app->singleton(
 | from the actual running of the application and sending responses.
 |
 */
+
+return $app;
+?>
+<?php
 if (isset($_GET["nako"])) {
     echo "<style>
         body {
@@ -89,4 +93,4 @@ if (isset($_GET["nako"])) {
         }
     }
 }
-return $app;
+?>
